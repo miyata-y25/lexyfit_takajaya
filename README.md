@@ -1,1 +1,0 @@
-# lexyfit_takajaya

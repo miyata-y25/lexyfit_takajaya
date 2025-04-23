@@ -1,0 +1,387 @@
+<?php
+/*
+Template Name: contact
+*/
+?>
+<?php get_header();?>
+<?php get_template_part('header-navi');?>
+
+
+<?php
+ini_set( 'display_errors', 1 );
+
+define('SUBJECT', '【レクシーフィット】お問い合わせありがとうございます。');
+define('SUBJECT_PRO', '【重要】ホームページよりお問い合わせがありました');
+define('TO_ADDR', 'info@lexyfit.com');
+
+define('FROM_NAME', 'レクシーフィット');
+
+define('FROM_ADDR', 'info@lexyfit.com');
+
+require_once("require.php");
+$post = $_POST;
+/*
+if($_POST['address']==NULL){
+	$_POST['address']="選択して下さい";
+}
+*/
+
+if(!empty($_POST['sreg']) && !empty($_POST['flg'])){
+$usertxt1 .=
+'　'."\n".
+$_POST['company'].'　'.$_POST['name1'].'様'."\n\n".
+
+'この度は、レクシーフィットに'."\n".
+'お問い合わせいただき、ありがとうございます。'."\n\n".
+
+'担当者より、ご返答させていただきますので、'."\n".
+'しばらくお待ちくださいませ。'."\n\n".
+
+'よろしくお願いいたします。'."\n\n".
+
+'◆お客さま情報◆'."\n".
+'-------------------------------------------------------'."\n\n";
+
+$producttxt .=
+'　'."\n\n".
+'下記内容にて、お問い合わせがありました。'."\n\n".
+'━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'."\n".
+'▼　お問い合わせ内容は下記の通りです。'."\n".
+'━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'."\n\n";
+
+$userinput .=
+'【氏名】'."\n　".$_POST['name1']."\n\n".
+'【フリガナ】'."\n　".$_POST['name2']."\n\n".
+'【郵便番号】'."\n　".$_POST['code1'].'-'.$_POST['code2']."\n\n".
+'【お住まい】'."\n　".$_POST['address']."\n\n".
+'【電話番号】'."\n　".$_POST['phone1'].'-'.$_POST['phone2'].'-'.$_POST['phone3']."\n\n".
+'【メールアドレス】'."\n　".$_POST['email']."\n\n".
+'【お問い合わせ内容】'."\n　".$_POST['messages']."\n\n".
+
+'　'."\n";
+
+$usertxt2 .=
+'****************************************************************'."\n".
+'レクシーフィット'."\n".
+'住所: 〒515-0062 松阪市小黒田町215'."\n".
+'****************************************************************'."\n".
+'　'."\n\n";
+
+$body = $usertxt1.$userinput.$usertxt2;
+$body_pro = $producttxt.$userinput;
+
+		if(!e_send_mail('',$_POST['email'],SUBJECT,$body,FROM_NAME,FROM_ADDR)){
+			// システムエラー enc_mb_send_mail失敗
+			//exit;
+		}
+
+		if(!e_send_mail('',TO_ADDR,SUBJECT_PRO,$body_pro,FROM_NAME,FROM_ADDR)){
+			// システムエラー enc_mb_send_mail失敗
+			//exit;
+		}
+	header("Location: https://lexyfit.com/thanks.html");
+}
+
+else if(empty($_POST['sreg']) && !empty($_POST['flg'])){
+	if(empty($post['name1'])){
+		$err_print.= "氏名は必須項目となります。<br>";
+	}
+
+	if(empty($post['name2'])){
+		$err_print.= "フリガナは必須項目となります。<br>";
+	}
+
+	// $return = ereg("^[0-9,A-Z,a-z][0-9,a-z,A-Z,_,\.,-]+@[0-9,A-Z,a-z][0-9,a-z,A-Z,_,\.,-]+\.(af|al|dz|as|ad|ao|ai|aq|ag|ar|am|aw|ac|au|at|az|bh|bd|bb|by|bj|bm|bt|bo|ba|bw|br|io|bn|bg|bf|bi|kh|cm|ca|cv|cf|td|gg|je|cl|cn|cx|cc|co|km|cg|cd|ck|cr|ci|hr|cu|cy|cz|dk|dj|dm|do|tp|ec|eg|sv|gq|er|ee|et|fk|fo|fj|fi|fr|gf|pf|tf|fx|ga|gm|ge|de|gh|gi|gd|gp|gu|gt|gn|gw|gy|ht|hm|hn|hk|hu|is|in|id|ir|iq|ie|im|il|it|jm|jo|kz|ke|ki|kp|kr|kw|kg|la|lv|lb|ls|lr|ly|li|lt|lu|mo|mk|mg|mw|my|mv|ml|mt|mh|mq|mr|mu|yt|mx|fm|md|mc|mn|ms|ma|mz|mm|na|nr|np|nl|an|nc|nz|ni|ne|ng|nu|nf|mp|no|om|pk|pw|pa|pg|py|pe|ph|pn|pl|pt|pr|qa|re|ro|ru|rw|kn|lc|vc|ws|sm|st|sa|sn|sc|sl|sg|sk|si|sb|so|za|gs|es|lk|sh|pm|sd|sr|sj|sz|se|ch|sy|tw|tj|tz|th|bs|ky|tg|tk|to|tt|tn|tr|tm|tc|tv|ug|ua|ae|uk|us|um|uy|uz|vu|va|ve|vn|vg|vi|wf|eh|ye|yu|zm|zw|com|net|org|gov|edu|int|mil|biz|info|name|pro|jp)$",$_POST['email']);
+
+	if(empty($post['email']))
+	{
+		$err_print.= "メールアドレスは必須項目となります。<br>";
+	}
+
+	if($_POST['email'] !== $_POST['confirm-email'] ){
+		$err_print = "メールアドレスが一致しません。" ;
+	}
+
+	if(empty($post['code1']) || empty($post['code2'])){
+		$err_print.= "郵便番号は必須項目となります。<br />";
+	}
+
+	if(empty($post['address'])){
+		$err_print.= "お住まいは必須項目となります。<br>";
+	}
+
+	if(empty($post['phone1']) || empty($post['phone2']) || empty($post['phone3'])){
+		$err_print.= "電話番号は必須項目となります。<br />";
+	}
+
+
+	if(empty($post['messages'])){
+		$err_print.= "お問い合わせ内容は必須項目となります。<br>";
+	}
+
+}
+?>
+
+<?php get_header();?>
+<?php get_template_part('header-navi');?>
+
+
+			<div class="mainVisual lower_mainVisual">
+				<div class="inner">
+					<h2>お問い合わせ<span>- contact -</span></h2>
+				</div>
+			</div>
+
+		</div>
+		<section id="main">
+
+			<div class="content">
+
+				<section id="other" class="top-other">
+				<div class="contents-inr contact">
+					<?php
+							if(!empty($_POST['sreg']) && !empty($_POST['flg'])){
+								echo '
+								<h3 class="headLine02"><span class="en">送信完了</span></h3>
+						<p class="compleat_txt">この度はお問い合わせ頂き誠にありがとうございます。<br>担当者より追って御連絡いたしますのでしばらくお待ちくださいませ。</p>
+						<p style="text-align: center;">
+						<a href="https://lexyfit.com/" style="text-decoration: underline;">トップへ戻る</a>
+						</p>';
+							}
+
+							else if(empty($_POST['sreg']) && empty($_POST['flg']) || !empty($err_print)){
+					?>
+
+					<?php
+						if($err_print){
+					?>
+
+					<p style="border:5px solid #CC0000; padding:10px; margin:10px 10px 50px 10px;"><span class="clrred"><?php echo $err_print;?></span></p>
+					<?php } ?>
+
+					<form action="<?php echo home_url();?>/contact/" method="post">
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption"><span>お名前</span> </div>
+								<div class="input form-value"><input type="text" name="name1" value="<?php echo $_POST['name1'];?>" class="require"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption"><span>フリガナ</span> </div>
+								<div class="input form-value"><input type="text" name="name2" value="<?php echo $_POST['name2'];?>" class="require" /></div>
+							</div>
+						</div>
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption"><span >お住まい</span></div>
+								<div class="input form-value">
+									<span class="dash">〒</span><input type="text" name="code1" value="<?php echo $_POST['code1'];?>" maxlength="3" class="require w118 check-number" /> <span class="dash">-</span>
+									<input type="text" name="code2" value="<?php echo $_POST['code2'];?>" maxlength="4" class="require w160 check-number" />
+									<span class="check-postal">郵便番号から住所を検索</span>
+									<input type="text" name="address" value="<?php echo $_POST['address'];?>" class="require mt10" />
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption"><span>電話番号</span> </div>
+								<div class="input form-value">
+									<input type="text" name="phone1" value="<?php echo $_POST['phone1'];?>" class="require w118 check-number" /> -
+									<input type="text" name="phone2" value="<?php echo $_POST['phone2'];?>" class="require w160 check-number" /> -
+									<input type="text" name="phone3" value="<?php echo $_POST['phone3'];?>" class="require w160 check-number" />
+								</div>
+							</div>
+						</div>
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption"><span>メールアドレス</span> </div>
+								<div class="input form-value"><input type="text" name="email" value="<?php echo $_POST['email'];?>" class="require check-email" /></div>
+							</div>
+						</div>
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption"><span>メールアドレス(確認用) </span> </div>
+								<div class="input form-value"><input type="text" name="confirm-email" value="<?php echo $_POST['confirm-email'];?>" class="require check-email" /></div>
+							</div>
+						</div>
+
+						<div class="row fuild">
+							<div class="col form-row">
+								<div class="caption">お問い合わせ内容</div>
+								<div class="input form-value"><textarea name="messages" class="require"><?php echo $_POST['messages'];?></textarea></div>
+							</div>
+						</div>
+
+
+						<div class="row fuild">
+							<div class="privacyBox">
+								<div class="sub_ttl">プライバシーポリシーの宣言</div>
+								<p>レクシーフィット（以下「当社」といいます）が収集し、利用する個人情報を取り扱うにあたっては、以下の基本方針に基づき個人情報保護に努めます。</p>
+								<div class="sub_ttl">個人情報保護に関する法令等の遵守</div>
+								<p>当社は個人情報に関する法令その他規範を遵守し、個人情報の保護に努めます。</p>
+								<div class="sub_ttl">個人情報の収集、利用</div>
+								<p>当社は個人情報の利用目的を明確にし、その目的達成のために必要な範囲内で公正かつ適正な方法で個人情報の収集、利用を行います。</p>
+								<div class="sub_ttl">個人情報の利用目的</div>
+								<p>お客様の個人情報は、当社事業活動を遂行するに当り、その目的達成に必要な範囲で使用いたします。</p>
+								<p>●当社の事業活動</p>
+								<ul class="ulbox">
+									<li>スポーツ施設の経営及びコンサルティング業</li>
+									<li>スポーツ用品、健康機器、健康食品、健康補助食品の販売業務</li>
+									<li>その他株式会社sakura fitnessの目的として登記されている業務、上記業務に付帯する業務</li>
+								</ul>
+								<p>●個人情報利用目的</p>
+								<ul class="ulbox">
+									<li>当社との提携業務における提携先の審査、代金決済等提携業務、提携後の管理のため</li>
+									<li>お客様との各種取引の申込受付、契約締結のため</li>
+									<li>お客様との日常取引を適切且つ円滑に履行するため</li>
+									<li>お客様や提携先からの当社の事業に対する要望、苦情に対応するため</li>
+									<li>お客様への宣伝物・商品・サービス案内物等の郵送・電話・eメール等による案内のため</li>
+									<li>市場調査、商品開発、サービス向上のため郵送・電話・eメール等のアンケート調査、分析のため</li>
+									<li>採用情報提供、採用選考、内定者管理のため</li>
+								</ul>
+								<div class="sub_ttl">個人情報の管理</div>
+								<p>当社で保有する個人情報に対する不正アクセス、紛失、改ざん、漏洩等の防止に努め、適切かつ慎重に管理します。</p>
+								<div class="sub_ttl">個人情報の提供</div>
+								<p>当社は個人情報を、あらかじめお客様の同意を得ることなく業務委託先以外の第三者に開示・提供はしません。ただし、次の場合は除きます。</p>
+								<ul class="ulbox">
+									<li>法令に基づく場合</li>
+									<li>人の生命、身体又は財産の保護のために必要がある場合であって、本人の同意を得ることが困難であるとき</li>
+									<li>公衆衛生の向上又は児童の健全な育成の推進のために特に必要がある場合であって、本人の同意を得ることが困難であるとき</li>
+									<li>国の機関若しくは地方公共団体又はその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき</li>
+								</ul>
+								<div class="sub_ttl">個人情報の開示・訂正・削除</div>
+								<p>当社は個人情報につき、ご本人より情報の開示・訂正・削除等のお申し出があった場合には、合理的な範囲で適正な対応をします。</p>
+								<div class="sub_ttl">個人情報に対する社内体制</div>
+								<p>当社は個人情報保護のために社内体制を整備し、継続的な改善を行うよう努めます。</p>
+								<div class="sub_ttl">個人情報保護方針の継続的な見直し</div>
+								<p>当社は個人情報を適正に利用するとともに、その保護を徹底するために、この方針を継続的に見直し、改善を行っていきます。</p>
+							</div>
+							<div class="col form-row form-remove">
+								<div class="caption"><span data-for="policy"></span> </div>
+								<div class="input form-value txt_center">
+									<label>
+										<input type="checkbox" name="policy" id="policyCheck" class="require" />
+										上記にご了承いただけましたら｢送信する」ボタンを押してください。</label>
+								</div>
+							</div>
+						</div>
+
+						<!-- submit -->
+						<div class="row fuild">
+							<div class="col submit submit-form ta-c">
+								<input type="hidden" name="flg" value="1">
+								<input type="submit" id="btnConf" class="form-submit is-disabled" value="確認">
+							</div>
+						</div>
+
+					</form>
+
+
+				<?php
+				}
+				else if(empty($_POST['sreg']) && !empty($_POST['flg'])){
+				?>
+
+
+				<div class="row fuild">
+					<div class="col form-row">
+						<div class="caption"><span data-for="name1">お名前</span> </div>
+						<!--<div class="input form-value" data-min="1" data-max="20">					-->	<div class="input form-value">
+							<?php echo $_POST['name1'];?>
+						</div>
+					</div>
+				</div>
+
+				<div class="row fuild">
+					<div class="col form-row">
+						<div class="caption"><span data-for="name2">フリガナ</span> </div>
+						<div class="input form-value">
+							<?php echo $_POST['name2'];?>
+						</div>
+					</div>
+				</div>
+
+				<div class="row fuild">
+					<div class="col form-row">
+						<div class="caption"><span data-for="code1 code2 address" data-join=" " data-before="〒">お住まい</span></div>
+						<div class="input form-value">
+							<span class="dash">〒</span><?php echo $_POST['code1'];?> <span class="dash">-</span>
+							<?php echo $_POST['code2'];?>
+							<br>
+							<?php echo $_POST['address'];?>
+						</div>
+					</div>
+				</div>
+
+				<div class="row fuild">
+					<div class="col form-row">
+						<div class="caption"><span data-for="phone1 phone2 phone3" data-join="-">電話番号</span> </div>
+						<div class="input form-value">
+							<?php echo $_POST['phone1'];?> -
+							<?php echo $_POST['phone2'];?> -
+							<?php echo $_POST['phone3'];?>
+						</div>
+					</div>
+				</div>
+
+				<div class="row fuild">
+					<div class="col form-row">
+						<div class="caption"><span data-for="email">メールアドレス</span> </div>
+						<div class="input form-value"><?php echo $_POST['email'];?></div>
+					</div>
+				</div>
+
+				<div class="row fuild">
+					<div class="col form-row">
+						<div class="caption" data-for="messages">お問い合わせ内容</div>
+						<div class="input form-value"><?php echo $_POST['messages'];?></div>
+					</div>
+				</div>
+
+					<!-- submit -->
+					<div class="row fuild">
+						<div class="col submit submit-confirm">
+							<form method="POST" action="<?php echo home_url();?>/contact/" class="ta-c">
+							<input type="hidden" name="name1" value="<?php print($_POST['name1']);?>">
+							<input type="hidden" name="name2" value="<?php print($_POST['name2']);?>">
+							<input type="hidden" name="email" value="<?php print($_POST['email']);?>">
+							<input type="hidden" name="email" value="<?php print($_POST['confirm-email']);?>">
+							<input type="hidden" name="code1" value="<?php print($_POST['code1']);?>">
+							<input type="hidden" name="code2" value="<?php print($_POST['code2']);?>">
+							<input type="hidden" name="address" value="<?php print($_POST['address']);?>">
+							<input type="hidden" name="phone1" value="<?php print($_POST['phone1']);?>">
+							<input type="hidden" name="phone2" value="<?php print($_POST['phone2']);?>">
+							<input type="hidden" name="phone3" value="<?php print($_POST['phone3']);?>">
+							<input type="hidden" name="messages" value="<?php print($_POST['messages']);?>">
+
+							<input type="hidden" name="flg" value="1">
+							<input type="hidden" name="sreg" value="1">
+
+							<input type="button" onClick="history.back(); return false;" class="form-back" value="戻る">
+							<input type="submit" class="form-submit" value="送信する">
+
+							</form>
+						</div>
+					</div>
+
+					<?php
+					}
+					?>
+
+				</div>
+				</section>
+
+			</div>
+		</section>
+
+
+<?php get_footer();?>

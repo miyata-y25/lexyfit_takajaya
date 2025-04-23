@@ -1,0 +1,1389 @@
+<?php get_header(); ?>
+<?php get_template_part('header-navi'); ?>
+
+<div class="mainVisual" style="background-image: url('<?php the_field('cf-mv-pic', 'option'); ?>')!important;">
+	<div class="inner">
+
+		<h2>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_catch.png" alt="LeXy Fit">
+			<?php the_field('cf-mv-txt', 'option', false, false); ?>
+		</h2>
+
+
+		<ul class="textUl flex left">
+			<li>
+				<p class="ttl">充実の<br>トレーニング設備</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img01_icon.png" alt="充実のトレーニング設備 名だたるジムのメインマシンとしてラインナップされているスタートラック社製の2019年最新モデルを導入。">
+				<p class="txt">名だたるジムのメインマシンとしてラインナップされているスタートラック社製の2019年最新モデルを導入。</p>
+			</li>
+			<li>
+				<p class="ttl">地域最大級<br>フリーウエイト</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img02_icon.png" alt="地域最大級フリーウエイト スミスマシンやパワーラックはもちろん、プレードローデッドマシンやダンベルも50㎏までご用意！">
+				<p class="txt">スミスマシンやパワーラックはもちろん、プレードローデッドマシンやダンベルも70㎏までご用意！</p>
+			</li>
+			<li>
+				<p class="ttl">地域初導入の<br>最新ケーブルマシン</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img17_icon.png" alt="女性やシニアにもおすすめのピラティスやファンクショナルエクササイズができる地域初導入の最新マシンでしなやかに機能するカラダをつくります。">
+				<p class="txt">女性やシニアにもおすすめのピラティスやファンクショナルエクササイズができる地域初導入の最新マシンでしなやかに機能するカラダをつくります。</p>
+			</li>
+			<li>
+				<p class="ttl">スタジオプログラム<br>もご用意</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img05_icon.png" alt="スタジオプログラムもご用意 世界的人気のレズミルズやヨガ・ピラティス・ダンスプログラムなどLIVEレッスンが充実！">
+				<p class="txt">世界的人気のレズミルズやヨガ・フラダンスなどLIVEレッスンが充実！オンラインレッスンもスタート！</p>
+			</li>
+			<li>
+				<p class="ttl">ファンクショナルエリア</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img03_icon.png" alt="TRX（世界的ファンクショナルトレーニング）ができるエリアで思い通りに動ける身体に。">
+				<p class="txt">TRX（世界的ファンクショナルトレーニング）ができるエリアで思い通りに動ける身体に。</p>
+			</li>
+			<li>
+				<p class="ttl">ピクシー(キッズエクササイズ)</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img18_icon.png" alt="さまざまなスポーツに応用できる運動の基本動作を伸ばします。対象：3歳～5歳">
+				<p class="txt">走る・投げるなど様々なスポーツに応用できる運動の基礎動作を伸ばします。対象：3歳～5歳</p>
+			</li>
+			<li>
+				<p class="ttl">24時間・安全・万全の<br>セキュリティ</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img06_icon.png" alt="顔認証での入退館管理、防犯カメラによる監視。女性でも、深夜早朝でも安心してご利用いただけます。">
+				<p class="txt">顔認証での入退館管理、防犯カメラによる監視。女性でも、深夜早朝でも安心してご利用いただけます。</p>
+			</li>
+			<li>
+				<p class="ttl">好立地・駐車場完備</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img07_icon.png" alt="近鉄鈴鹿線 三日市駅から徒歩12分。鈴鹿中央道路沿い 鈴鹿グランドボウル１階。駐車場150台。">
+				<p class="txt">近鉄鈴鹿線 三日市駅から徒歩12分。鈴鹿中央道路沿い 鈴鹿グランドボウル１階<br>駐車場150台。</p>
+			</li>
+			<li>
+				<p class="ttl">家族割がお得</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img08_icon.png" alt="家族割がお得 【3人家族の場合】6,000円+3,500円+3,500円　月会費合計 13,000円で3名様がご利用いただけます！">
+				<p class="txt">ご家族で入会すると2人目以降はお得な価格でご利用頂けます！</p>
+			</li>
+			<li>
+				<p class="ttl">男女別更衣室・<br>シャワールーム</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img09_icon.png" alt="男女別更衣室・シャワールーム 一体型脱衣ルームを備えた、プライバシー対策万全のシャワールームを男女別でご用意。">
+				<p class="txt">一体型脱衣ルームを備えた、プライバシー対策万全のシャワールームを男女別でご用意。</p>
+			</li>
+			<li>
+				<p class="ttl">鍵付きロッカー</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img10_icon.png" alt="鍵付きロッカー トレーニング中にご利用頂ける、鍵付きロッカーをご用意！安心して運動できます。">
+				<p class="txt">トレーニング中にご利用頂ける、鍵付きロッカーをご用意！安心して運動できます。</p>
+			</li>
+			<li>
+				<p class="ttl">レンタルロッカー</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img11_icon.png" alt="レンタルロッカー シューズなどを置いておけるレンタルロッカーは120台ご用意！">
+				<p class="txt">シューズなどを置いておけるレンタルロッカーは126台ご用意！</p>
+			</li>
+			<li>
+				<p class="ttl">プロショップ</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img12_icon.png" alt="プロショップ フィットネスグッズやプロテインなどを販売しております">
+				<p class="txt">フィットネスグッズやプロテインなどを販売しております</p>
+			</li>
+			<li>
+				<p class="ttl">タンニングマシン</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img19_icon.png" alt="健康的に日焼けをしていただけるタンニングマシンを設置。">
+				<p class="txt">健康的に日焼けをしていただけるタンニングマシンを設置。</p>
+			</li>
+			<li>
+				<p class="ttl">水素水</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img14_icon.png" alt="水素水 安定した水素濃度を実現した、高濃度水素水サーバーをご用意！（別途料金）">
+				<p class="txt">安定した水素濃度を実現した、高濃度水素水サーバーをご用意！（別途料金）</p>
+			</li>
+			<li>
+				<p class="ttl">無料Wi-Fi</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img15_icon.png" alt="無料Wi-Fi 館内は無料Wi-Fiを完備。音楽や動画をご覧いただきながらトレーニング♪">
+				<p class="txt">館内は無料Wi-Fiを完備。音楽や動画をご覧いただきながらトレーニング♪</p>
+			</li>
+			<li>
+				<p class="ttl">AED設置店</p>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img16_icon.png" alt="AED設置店 AED（自動体外式除細動器）を設置。安心・安全なジムを志しております。">
+				<p class="txt">AED（自動体外式除細動器）を設置。安心・安全なジムを志しております。</p>
+			</li>
+		</ul>
+
+	</div>
+</div>
+</div>
+
+
+<section id="main">
+	<div class="about">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">ABOUT</span>レクシーフィットネスとは</h3>
+			<p class="topText">「Lexy」とはLive ＆ Sexyの造語です。年齢や男女問わず、美しく鍛えたい！かっこよく鍛えたい！健康を維持したい！Cool Bodyを目指したい 皆様の思いに応えるフィットネスジムです。<br>
+				<br>
+				鈴鹿店は250坪のボディメイクに必要なマシンがすべて揃う究極のジム。運動初心者でも使いやすいく、上級者も納得のマシンラインナップ。地域初の最新ケーブル式マシンも導入。スタジオではバーチャルレッスンを中心にライブレッスンも充実。三重県鈴鹿市、近鉄鈴鹿線三日市駅から徒歩12分。鈴鹿中央道路沿い「鈴鹿グランドボウル１階」駐車場150台完備。
+			</p>
+			<div class="comSlideBox">
+				<div class="slideInn">
+					<ul class="slide">
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img01.jpg" alt="アドバンスゾーン"><span class="ttl">アドバンスゾーン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img02.jpg" alt="ビギナーゾーン"><span class="ttl">ビギナーゾーン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img03.jpg" alt="カーディオゾーン"><span class="ttl">カーディオゾーン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img04.jpg" alt="ファンクショナルゾーン"><span class="ttl">ファンクショナルゾーン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img05.jpg" alt="最新ケーブル式マシン"><span class="ttl">最新ケーブル式マシン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img06.jpg" alt="Les Mills"><span class="ttl">Les Mills</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img09.jpg" alt="YOGA"><span class="ttl">YOGA</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img12.jpg" alt="フラダンス"><span class="ttl">フラダンス</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img10.jpg" alt="キッズエクササイズ"><span class="ttl">キッズエクササイズ</span></li>
+						<!-- ===========================================================================
+						非表示
+						=========================================================================== -->
+						<!-- <li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img13.jpg" alt="ダンスエクササイズ"><span class="ttl">ダンスエクササイズ</span></li> -->
+						<!-- <li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img14.jpg" alt="フィットカービング"><span class="ttl">フィットカービング</span></li> -->
+						<!-- ===========================================================================
+						非表示
+						=========================================================================== -->
+					</ul>
+				</div>
+				<ul class="arrowList">
+					<li class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_left.png" alt=""></li>
+					<li class="next"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_right.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="movie movie-room">
+		<h4 class="headLine02 white"><span class="en">movie</span></h4>
+		<p>館内の様子を動画でチェック！</p>
+		<div class="ytb"><a href="https://youtu.be/hNSl1rmREgE" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb06.jpg" alt="館内の様子を動画でチェック！"></a></div>
+	</div>
+
+
+	<div id="campaign" class="campaign">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">campaign</span>キャンペーン情報</h3>
+			<div class="whiteBox">
+				<div class="titleBox">
+					<?php the_field('cf-camp-ttl', 'option'); ?>
+					<!-- <p class="time"><em class="corTxt01 en">2021</em>年<em class="corTxt01 en">12</em>月 末スタート（予定）</p> -->
+				</div>
+				<img style="margin-bottom: 50px;" src="<?php the_field('flyer-img', 'option'); ?>" alt="キャンペーン情報">
+				<ul style="display: none;" class="comPriceUl flex center">
+					<?php if (have_rows('cf-camp-01', 'option')) : ?>
+						<?php while (have_rows('cf-camp-01', 'option')) : the_row(); ?>
+							<li><?php the_sub_field('contents'); ?></li>
+						<?php endwhile; ?>
+					<?php endif; ?>
+
+				</ul>
+				<?php
+				$txt4 = get_field('cf-camp-04ad', 'option');
+				echo $txt4;
+				?>
+				<!-- <p class="lead"><?php echo $txt4['ttl']; ?><br>
+							<em class="corTxt01 en"><?php echo $txt4['price01']; ?></em><span class="ttl">円</span></p>
+						<dl class="noteDl">
+							<dt><?php echo $txt4['txt01']; ?></dt>
+							<dd>
+								<ul>
+									<li><?php echo $txt4['txt02']; ?></li>
+									<li><?php echo $txt4['txt03']; ?></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="comTtlDl"><?php $txt5 = get_field('cf-camp-05', 'option'); ?>
+							<dt><?php echo $txt5['cf-camp-01−01']; ?></dt>
+							<dd><?php echo $txt5['cf-camp-01−02']; ?></dd>
+						</dl>
+						<p class="head"><?php the_field('cf-camp-06', 'option'); ?></p>
+						<p class="head"><a href="https://lexyfit-matsusaka.blogspot.com/2019/11/web_14.html" target="_blank"><span class="corTxt01">【ご入会の流れについて】</span> </a></p> -->
+
+				<ul class="list-ast">
+					<?php if (have_rows('cf-camp-05', 'option')) : ?>
+						<?php while (have_rows('cf-camp-05', 'option')) : the_row(); ?>
+							<li><?php the_sub_field('テキスト'); ?></li>
+						<?php endwhile; ?>
+					<?php endif; ?>
+				</ul>
+				<dl class="note-request mb-3em">
+					<dt class="note-request__title">ご入会に必要なもの</dt>
+					<dd class="note-request__content">本人確認書類（運転免許証など）、クレジットカード、スマートフォン</dd>
+				</dl>
+				<p class="head">WEB入会スタート!</p>
+
+				<div class="comBtn"><a href="https://www.isslim.jp/slim/web/d/index.php/WCM0400E/WCM0400E000/?c=pZtE5qwenv&f=00003">WEB入会はこちら</a></div>
+				<div class="top-campaign-guide">
+					<dl>
+						<dt>ご入会の流れ</dt>
+						<dd>
+							<ul class="flow">
+								<li>まずは<br>WEB入会</li>
+								<li class="arrow">▶</li>
+								<li>つぎに<br>ご来店手続き</li>
+							</ul>
+							<table>
+								<tbody>
+									<tr>
+										<th>ご来店手続き時に<br class="sp_only">必要なもの</th>
+										<td>・本人確認書類（運転免許証など）<br>
+											・スマートフォン<br class="sp_only">（お持ちでない方はご相談ください）<br>
+											・クレジットカード</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="note">
+								WEB入会後にご来店頂き、本人確認の上、<br class="sp_only">セキュリティシステム登録を行います。<br>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<ul style="margin-top: 1rem;">
+					<li>※迷惑メール設定等によりレクシーフィットからのメールが届かない場合がございます。ドメイン「@lexyfit.com」を受信できるように設定をお願い致します。<br>
+						※また、メールが届かない場合、登録が完了しているか確認をいたしますので、店舗までご連絡をください。</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- ===========================================================================
+				非表示
+				=========================================================================== -->
+	<!-- <div class="visit">
+				<div class="content">
+					<div class="textBox">
+						<p class="title"><img src="<?php echo get_template_directory_uri(); ?>/img/index/visit_ttl.png" alt="見学・体験ともに予約不要！お気軽に！無料見学はスタッフタイム中いつでも大歓迎!!"></p>
+						<div class="whiteBox">
+							<p>体験（ビジター利用&yen;<span class="en fwNor">2,500</span>税別）は<br>
+								スタッフタイム中、最大<span class="en fwNor">5</span>時間利用可<br>
+								ビジター利用料は当日入会でキャッシュバック！</p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+	<!-- ===========================================================================
+				非表示
+				=========================================================================== -->
+
+
+
+	<div class="corporatemember">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">Corporate member</span>法人会員</h3>
+			             <p class="topText">企業の福利厚生に「健康寿命を延ばすこと」を加えませんか？</p>
+			<div class="whiteBox">
+				<!--<h4 class="headLine02"><span class="en">TRIAL</span></h4>-->
+				<div class="textBox">
+					<p class="title">年会費(1口)</p>
+					<p class="price"><em class="en fs01 corTxt01">300,000</em><span class="ttl">円（税込330,000円）</span></p>
+				</div>
+				<div class="textBox">
+					<p class="title">入会金</p>
+					<p class="price"><em class="en fs01 corTxt01">200,000</em><span class="ttl">円（税込220,000円）</span></p>
+				</div>
+
+				<div class="textBox">
+					<p class="title">セキュリティ登録料</p>
+					<p class="price"><em class="en fs01 corTxt01">25,000</em><span class="ttl">円（税込27,500円）</span></p>
+				</div>
+				<p class="sm">※1口5名までご利用可(入会企業の従業員様が対象となります。)</p>
+				<p class="sm">※店舗(法人営業担当)までご連絡下さい。</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="franchise">
+		<div class="content">
+			             <h3 class="headLine01 cor01"><span class="en">FRANCHISE</span>FC加盟オーナー・出店用地募集</h3>
+			<p class="topText">地域に根差した地域一番店のフィットネスジムを目指して</p>
+			<div class="whiteBox">
+				<!--<h4 class="headLine02"><span class="en">TRIAL</span></h4>-->
+
+				<div class="comImgBox left">
+					<div class="textBox">
+						<p class="title corTxt01">FC加盟オーナー・出店用地を募集しています！</p>
+						                   
+						<!--<p class="sm">コロナ禍で人々の健康意欲が高まり気軽にトレーニングをしたいというニーズは今後ますます増えると予想されます。</p>-->
+						<p class="sm">レクシーフィットでは未経験、ノウハウ無しでジムが開業できます！</p>
+						<p class="sm">価格競争に巻き込まれず勝ち組なるプランニングならレクシーフィット!あなたもFC加盟オーナーになりませんか？<br>新規出店用地も募集しています!</p>
+					</div>
+					<div class="photoBox">
+						<div class="pho"><img src="https://lexyfit.com/tsushinmachi/wp-content/uploads/feature_image_01-.jpg"></div>
+					</div>
+				</div>
+				<div class="recommended_txt">
+					<p><a href="https://workel.co.jp/" target="_blank">お問い合わせはこちら</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="facilities" class="facilities">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">facilities</span>施設紹介</h3>
+			<p class="topText">地域最大級24時間フィットネスジム「レクシーフィット鈴鹿店」の施設を大公開！</p>
+			<div class="whiteBox">
+				<h4 class="headLine02"><span class="en">TRAINING ZONE</span></h4>
+				<p>あなたの願いが全てかなう４つのトレーニングゾーン</p>
+
+
+
+
+
+
+
+
+				<div class="slideSec">
+					<div class="fooBox">
+						<div class="textBox">
+							<h5><span>ビギナーゾーン</span></h5>
+							<p>１７台１６種類の筋トレマシンを完備！初心者にも安心して使用できる基本的なトレーニングマシン</p>
+						</div>
+						<div class="foo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/slider02_ttl.jpg" alt=""></div>
+					</div>
+					<div class="comSlideBox">
+						<div class="slideInn">
+							<ul class="slide">
+								<li><a href="#machine0101" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img01.jpg" alt="シーテッドレッグプレス"></a></li>
+								<li><a href="#machine0102" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img02.jpg" alt="レッグエクステンション"></a></li>
+								<li><a href="#machine0103" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img03.jpg" alt="シーテッドレッグカール"></a></li>
+								<li><a href="#machine0113" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img13.jpg" alt="アブダクション・アダクション"></a></li>
+								<li><a href="#machine0114" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img14.jpg" alt="ロータリートーソ"></a></li>
+								<li><a href="#machine0108" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img08.jpg" alt="チェストプレス"></a></li>
+								<li><a href="#machine0109" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img09.jpg" alt="ペクトラルフライ・リアデルト"></a></li>
+								<li><a href="#machine0110" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img10.jpg" alt="ラットプルダウン"></a></li>
+								<li><a href="#machine0111" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img11.jpg" alt="ローロウ"></a></li>
+								<li><a href="#machine0112" data-rel="lightcase:beginnerzone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img12.jpg" alt="ショルダープレス"></a></li>
+							</ul>
+						</div>
+						<ul class="arrowList">
+							<li class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_left.png" alt=""></li>
+							<li class="next"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_right.png" alt=""></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<!-- ========== ビギナーゾーン popup  ========== -->
+				<div id="machine0101" class="popup-contents" style="display: none;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/r8khvsJIlmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="ttl">品名</p>
+					<p>シーテッドレッグプレス</p>
+					<p class="ttl">コメント</p>
+					<p>腰や背中に負担をかけず、足を鍛えることができます。女性は脚のラインの引き締め効果を期待できます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大腿四頭筋・腓腹筋</p>
+				</div>
+
+				<div id="machine0102" class="popup-contents" style="display: none;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/eQnqU-XYTGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="ttl">品名</p>
+					<p>レッグエクステンション</p>
+					<p class="ttl">コメント</p>
+					<p>太ももの前側を鍛えることができます。 </p>
+					<p class="ttl">効果部位</p>
+					<p>大腿四頭筋</p>
+				</div>
+
+				<div id="machine0103" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img03.jpg" alt="シーテッドレッグカール" />
+					<p class="ttl">品名</p>
+					<p>シーテッドレッグカール</p>
+					<p class="ttl">コメント</p>
+					<p>太ももの裏を鍛えることができます。女性は、お尻と太ももの境目をつくることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>ハムストリング</p>
+				</div>
+
+				<div id="machine0113" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img13.jpg" alt="アブダクション・アダクション"></img>
+					<p class="ttl">品名</p>
+					<p>アブダクション・アダクション</p>
+					<p class="ttl">コメント</p>
+					<p>アブダクション/お尻の上側や、外腿を鍛えます。・アダクション/内腿を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大腿筋膜張筋・大殿筋・中殿筋・内転筋群</p>
+				</div>
+
+				<div id="machine0114" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img14.jpg" alt="ロータリートーソ"></img>
+					<p class="ttl">品名</p>
+					<p>ロータリートーソ</p>
+					<p class="ttl">コメント</p>
+					<p>横腹を鍛えます。クビレ作り、引き締まったお腹を作ることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>腹筋・腹斜筋</p>
+				</div>
+
+				<div id="machine0108" class="popup-contents" style="display: none;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Ab0WuyvGRHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="ttl">品名</p>
+					<p>チェストプレス</p>
+					<p class="ttl">コメント</p>
+					<p>胸を鍛えるマシンです。男性は厚い胸板、女性はバストアップが期待できます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大胸筋・三角筋前部・上腕三頭筋</p>
+				</div>
+
+				<div id="machine0109" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img09.jpg" alt="ペクトラルフライ・リアデルト" />
+					<p class="ttl">品名</p>
+					<p>ペクトラルフライ・リアデルト</p>
+					<p class="ttl">コメント</p>
+					<p>胸／背中　2種類のトレーニングができます。<br>胸はチェストプレスとは違った刺激が入ります。背中は猫背解消に効果的です。</p>
+					<p class="ttl">効果部位</p>
+					<p>大胸筋・僧帽筋・菱形筋・三角筋後部</p>
+				</div>
+
+				<div id="machine0110" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img10.jpg" alt="ラットプルダウン" />
+					<p class="ttl">品名</p>
+					<p>ラットプルダウン</p>
+					<p class="ttl">コメント</p>
+					<p>背中を鍛えるマシンです。背中を引き締めることで美しいボディラインを手にすることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>広背筋・大円筋・菱形筋・上腕二頭筋</p>
+				</div>
+
+				<div id="machine0111" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/beginnerzone/img11.jpg" alt="ローロウ" />
+					<p class="ttl">品名</p>
+					<p>ローロウ</p>
+					<p class="ttl">コメント</p>
+					<p>肩の筋肉を鍛えます。肩の血行を良くし、肩こり予防にも効果的です。</p>
+					<p class="ttl">効果部位</p>
+					<p>三角筋前部・上腕三頭筋・僧帽筋</p>
+				</div>
+
+				<div id="machine0112" class="popup-contents" style="display: none;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/1spZHNojKiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="ttl">品名</p>
+					<p>ショルダープレス</p>
+					<p class="ttl">コメント</p>
+					<p>肩の筋肉を鍛えます。肩の血行を良くし、肩こり予防にも効果的です。</p>
+					<p class="ttl">効果部位</p>
+					<p>三角筋前部・上腕三頭筋・僧帽筋</p>
+				</div>
+				<!-- ========== / ビギナーゾーン popup END ========== -->
+
+
+				<div class="slideSec">
+					<div class="fooBox">
+						<div class="textBox">
+							<h5><span>アドバンスゾーン</span></h5>
+							<p>広々アドバンスエリアは様々な部位に<br class="pc">効果的なマシンやダンベルも70kgまでご用意！<br class="pc">日本にまだ数台の美尻専用マシンも！</p>
+						</div>
+						<div class="foo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/slider01_ttl.jpg" alt=""></div>
+					</div>
+					<div class="comSlideBox">
+						<div class="slideInn">
+							<ul class="slide">
+								<li><a href="#machine0201" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img01.jpg" alt="スミスマシン"></a></li>
+								<li><a href="#machine0202" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img02.jpg" alt="パワーケージ"></a></li>
+								<li><a href="#machine0223" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img23.jpg" alt="ハーフラック"></a></li>
+								<li><a href="#machine0203" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img03.jpg" alt="アンクルドレッグプレス"></a></li>
+								<li><a href="#machine0204" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img04.jpg" alt="ハックスクワット"></a></li>
+								<li><a href="#machine0205" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img05.jpg" alt="グルートドライブ"></a></li>
+								<li><a href="#machine0206" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img06.jpg" alt="ハイロー"></a></li>
+								<li><a href="#machine0224" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img24.jpg" alt="デッドリフト"></a></li>
+								<li><a href="#machine0208" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img08.jpg" alt="チェストプレス"></a></li>
+								<li><a href="#machine0209" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img09.jpg" alt="ショルダープレス"></a></li>
+								<li><a href="#machine0210" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img10.jpg" alt="チルトシートカーフ"></a></li>
+								<li><a href="#machine0211" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img11.jpg" alt="デュアルアジャスタブルプーリー"></a></li>
+								<li><a href="#machine0213" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img13.jpg" alt="シーテッドプリチャーカール"></a></li>
+								<li><a href="#machine0214" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img14.jpg" alt="グルートハム"></a></li>
+								<li><a href="#machine0215" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img15.jpg" alt="アジャスタブルバックエクステンション"></a></li>
+								<li><a href="#machine0217" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img17.jpg" alt="アブクランチ"></a></li>
+								<li><a href="#machine0218" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img18.jpg" alt="アジャスタブルアブドミナルベンチ"></a></li>
+								<li><a href="#machine0222" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img22.jpg" alt="チンディップアシスト"></a></li>
+								<li><a href="#machine0219" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img19.jpg" alt="マルチアジャスタブルベンチ"></a></li>
+								<li><a href="#machine0221" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img21.jpg" alt="アジャスタブルデクラインベンチ"></a></li>
+								<li><a href="#machine0220" data-rel="lightcase:advancezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img20.jpg" alt="ユーティリティーベンチ"></a></li>
+							</ul>
+						</div>
+						<ul class="arrowList">
+							<li class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_left.png" alt=""></li>
+							<li class="next"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_right.png" alt=""></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- ========== アドバンスゾーン popup  ========== -->
+				<div id="machine0201" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img01.jpg" alt="スミスマシン" />
+					<p class="ttl">品名</p>
+					<p>スミスマシン</p>
+					<p class="ttl">コメント</p>
+					<p>バーがガイドに沿って動きます。マシンとフリーウエイトのいいとこどりをしたマシン。<br>女性や初心者でも安心してトレーニングできます。</p>
+					<p class="ttl">効果部位</p>
+					<p>全身</p>
+				</div>
+
+				<div id="machine0202" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img02.jpg" alt="パワーケージ" />
+					<p class="ttl">品名</p>
+					<p>パワーケージ</p>
+					<p class="ttl">コメント</p>
+					<p>1台でベンチプレス、スクワットなど複数のバーベル種目を行うことが可能です。</p>
+					<p class="ttl">効果部位</p>
+					<p>全身</p>
+				</div>
+
+				<div id="machine0223" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img23.jpg" alt="ハーフラック" />
+					<p class="ttl">品名</p>
+					<p>ハーフラック</p>
+					<p class="ttl">コメント</p>
+					<p>1台でベンチプレス、スクワットなど複数のバーベル種目を行うことが可能です。</p>
+					<p class="ttl">効果部位</p>
+					<p>全身</p>
+				</div>
+
+				<div id="machine0203" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img03.jpg" alt="アンクルドレッグプレス" />
+					<p class="ttl">品名</p>
+					<p>アンクルドレッグプレス</p>
+					<p class="ttl">コメント</p>
+					<p>ケガのリスクを抑えて高重量のトレーニングをすることができます。角度がついているため身体が浮きにくくしっかりと負荷をかけることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大腿四頭筋・腓腹筋</p>
+				</div>
+
+				<div id="machine0204" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img04.jpg" alt="ハックスクワット" />
+					<p class="ttl">品名</p>
+					<p>ハックスクワット</p>
+					<p class="ttl">コメント</p>
+					<p>安定した状態で、お尻、ハムストリングスなどのトレーニングができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大殿筋・ハムストリングス</p>
+				</div>
+
+				<div id="machine0205" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img05.jpg" alt="グルートドライブ" />
+					<p class="ttl">品名</p>
+					<p>グルートドライブ</p>
+					<p class="ttl">コメント</p>
+					<p>お尻を鍛えるマシン。高重量でトレーニングでき、大殿筋にしっかりと刺激が入り丸みのあるヒップラインを作ることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大殿筋、中殿筋</p>
+				</div>
+
+				<div id="machine0206" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img06.jpg" alt="ハイロー" />
+					<p class="ttl">品名</p>
+					<p>ハイロー</p>
+					<p class="ttl">コメント</p>
+					<p>背中の上側あたりのトレーニングができます。しっかりとストレッチがかかるため背中にばっちり負荷がかかります。</p>
+					<p class="ttl">効果部位</p>
+					<p>広背筋上部・僧帽筋下部・大円筋</p>
+				</div>
+
+				<div id="machine0224" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img24.jpg" alt="デッドリフト" />
+					<p class="ttl">品名</p>
+					<p>デッドリフト</p>
+					<p class="ttl">コメント</p>
+					<p>広背筋上部と下部及び僧帽筋を鍛えることができます。バーベルではできない左右独立した動きが可能です。</p>
+					<p class="ttl">効果部位</p>
+					<p>脊柱起立筋・広背筋群・僧帽筋</p>
+				</div>
+
+				<div id="machine0208" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img08.jpg" alt="チェストプレス" />
+					<p class="ttl">品名</p>
+					<p>チェストプレス</p>
+					<p class="ttl">コメント</p>
+					<p>胸を鍛えるマシンです。男性は厚い胸板、女性はバストアップが期待できます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大胸筋・上腕三頭筋</p>
+				</div>
+
+				<div id="machine0209" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img09.jpg" alt="ショルダープレス" />
+					<p class="ttl">品名</p>
+					<p>ショルダープレス</p>
+					<p class="ttl">コメント</p>
+					<p>肩を鍛えるマシンです。しっかり押し上げ丸い肩を作りましょう。</p>
+					<p class="ttl">効果部位</p>
+					<p>三角筋</p>
+				</div>
+
+				<div id="machine0210" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img10.jpg" alt="チルトシートカーフ" />
+					<p class="ttl">品名</p>
+					<p>チルトシートカーフ</p>
+					<p class="ttl">コメント</p>
+					<p>座った状態でふくらはぎのトレーニングを安全に行うことができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>腓腹筋</p>
+				</div>
+
+				<div id="machine0211" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img11.jpg" alt="デュアルアジャスタブルプーリー" />
+					<p class="ttl">品名</p>
+					<p>デュアルアジャスタブルプーリー</p>
+					<p class="ttl">コメント</p>
+					<p>ケーブルを用いて、様々な筋肉を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>全身</p>
+				</div>
+
+				<div id="machine0213" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img13.jpg" alt="シーテッドプリチャーカール" />
+					<p class="ttl">品名</p>
+					<p>シーテッドプリチャーカール</p>
+					<p class="ttl">コメント</p>
+					<p>上腕を固定した状態でバーベルやダンベルを使って上腕二頭筋のトレーニングができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>上腕二頭筋</p>
+				</div>
+
+				<div id="machine0214" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img14.jpg" alt="グルートハム" />
+					<p class="ttl">品名</p>
+					<p>グルートハム</p>
+					<p class="ttl">コメント</p>
+					<p>腰・お尻・太ももの裏を鍛えるマシンです。腰痛を防いだり、姿勢改善に効果的です。</p>
+					<p class="ttl">効果部位</p>
+					<p>大殿筋・中殿筋・大腿二頭筋・半膜様筋・半腱様筋・脊柱起立筋</p>
+				</div>
+
+				<div id="machine0215" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img15.jpg" alt="アジャスタブルバックエクステンション" />
+					<p class="ttl">品名</p>
+					<p>アジャスタブルバックエクステンション</p>
+					<p class="ttl">コメント</p>
+					<p>背筋を鍛えることができます。シンプルな使い方なので初心者でも安心してトレーニングできます。</p>
+					<p class="ttl">効果部位</p>
+					<p>脊柱起立筋</p>
+				</div>
+
+				<div id="machine0217" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img17.jpg" alt="アブクランチ" />
+					<p class="ttl">品名</p>
+					<p>アブクランチ</p>
+					<p class="ttl">コメント</p>
+					<p>腹筋のトレーニングで使用します。プレートを付けて重りを調整することができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>腹筋</p>
+				</div>
+
+				<div id="machine0218" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img18.jpg" alt="アジャスタブルアブドミナルベンチ" />
+					<p class="ttl">品名</p>
+					<p>アジャスタブルアブドミナルベンチ</p>
+					<p class="ttl">コメント</p>
+					<p>腹筋のトレーニングで使用します。傾斜が変更でき負荷の調節が可能です。</p>
+					<p class="ttl">効果部位</p>
+					<p>腹筋</p>
+				</div>
+
+				<div id="machine0222" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img22.jpg" alt="チンディップアシスト"></img>
+					<p class="ttl">品名</p>
+					<p>チンディップアシスト</p>
+					<p class="ttl">コメント</p>
+					<p>背筋、大胸筋下部、三頭筋を鍛えることができます。懸垂やディップスができない方もアシストの力で効率的に鍛えることが可能です。</p>
+					<p class="ttl">効果部位</p>
+					<p>広背筋上部・僧帽筋下部・大円筋・大胸筋下部、三頭筋</p>
+				</div>
+
+				<div id="machine0219" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img19.jpg" alt="マルチアジャスタブルベンチ" />
+					<p class="ttl">品名</p>
+					<p>マルチアジャスタブルベンチ</p>
+					<p class="ttl">コメント</p>
+					<p>背もたれが動くベンチ。ダンベルなどのトレーニングで使用します。</p>
+					<p class="ttl">数量</p>
+					<p>2</p>
+				</div>
+
+				<div id="machine0221" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img21.jpg" alt="アジャスタブルデクラインベンチ" />
+					<p class="ttl">品名</p>
+					<p>アジャスタブルデクラインベンチ</p>
+					<p class="ttl">コメント</p>
+					<p>脚を高くして寝ることのできるベンチ。大胸筋の下部のトレーニングや腹筋のトレーニングで使用します。</p>
+					<p class="ttl">効果部位</p>
+					<p>大胸筋下部・上腕三頭筋・腹筋</p>
+				</div>
+
+				<div id="machine0220" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/advancezone/img20.jpg" alt="ユーティリティーベンチ" />
+					<p class="ttl">品名</p>
+					<p>ユーティリティーベンチ</p>
+					<p class="ttl">コメント</p>
+					<p>
+						９０度で固定されたベンチ。ダンベルショルダープレスやアームカールトレーニングで使用します。足置きがあるため身体を安定させることができます。
+					</p>
+				</div>
+				<!-- ========== / アドバンスゾーン popup END ========== -->
+
+
+				<div class="slideSec">
+					<div class="fooBox">
+						<div class="textBox">
+							<h5><span>カーディオゾーン</span></h5>
+							<p>ランニング、バイク、クロストレーナーなど<br class="pc">有酸素運動系のマシンも多数ご用意。</p>
+						</div>
+						<div class="foo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/slider03_ttl.jpg" alt=""></div>
+					</div>
+					<div class="comSlideBox">
+						<div class="slideInn">
+							<ul class="slide">
+								<li><a href="#machine0301" data-rel="lightcase:cardiozone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cardiozone/img01.jpg" alt="トレッドミル"></a></li>
+								<li><a href="#machine0304" data-rel="lightcase:cardiozone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cardiozone/img04.jpg" alt="リカンベントバイク"></a></li>
+								<li><a href="#machine0305" data-rel="lightcase:cardiozone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cardiozone/img05.jpg" alt="アップライトバイク"></a></li>
+							</ul>
+						</div>
+						<ul class="arrowList">
+							<li class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_left.png" alt=""></li>
+							<li class="next"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_right.png" alt=""></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- ========== / カーディオゾーン popup END ========== -->
+				<div id="machine0301" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cardiozone/img01.jpg" alt="トレッドミル" />
+					<p class="ttl">品名</p>
+					<p>トレッドミル</p>
+					<p class="ttl">コメント</p>
+					<p>ランニングマシン。傾斜やスピードを簡単に変えながらトレーニングできます。</p>
+					<p class="ttl">数量</p>
+					<p>10</p>
+				</div>
+
+				<div id="machine0304" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cardiozone/img04.jpg" alt="リカンベントバイク" />
+					<p class="ttl">品名</p>
+					<p>リカンベントバイク</p>
+					<p class="ttl">コメント</p>
+					<p>背もたれがついているため、体幹部の負担が減り、体力に自信がない方でも安心して有酸素運動ができます。</p>
+					<p class="ttl">数量</p>
+					<p>5</p>
+				</div>
+
+				<div id="machine0305" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cardiozone/img05.jpg" alt="アップライトバイク" />
+					<p class="ttl">品名</p>
+					<p>アップライトバイク</p>
+					<p class="ttl">コメント</p>
+					<p>自転車を漕ぐように下半身の筋肉を使う有酸素マシンです。</p>
+					<p class="ttl">数量</p>
+					<p>3</p>
+				</div>
+				<!-- ========== / カーディオゾーン popup END ========== -->
+
+
+				<div class="markBox">
+					<div class="mark"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/facilities_nautilus.png" alt="nautilus"></a></div>
+					<div class="textBox">
+						<p>ノーチラス社製のマシンは、あまりに短期間で効果があがるところから“タイム・マシン”と呼ばれ、アメリカで古くから人気の画期的なトレーニングマシンです。生体力学の最大限の効果を生み出すために追及された可動域は、初心者の方には扱いやすく安全で、上級者の方にはしっかり手応えが得られるマシンです。</p>
+					</div>
+				</div>
+
+
+				<div class="slideSec">
+					<div class="fooBox">
+						<div class="textBox">
+							<h5><span>最新ケーブル式マシンゾーン</span></h5>
+							<p>女性やシニアにもおすすめのピラティスやファンクショナルエクササイズができる<br class="pc">地域初導入の最新マシンでしなやかに機能するカラダをつくります。</p>
+						</div>
+						<div class="foo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/slider04_ttl.jpg" alt=""></div>
+					</div>
+					<div class="comSlideBox">
+						<div class="slideInn">
+							<ul class="slide">
+								<li><a href="#machine0401" data-rel="lightcase:cablezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img01.jpg" alt="ショルダーチェスト"></a></li>
+								<li><a href="#machine0402" data-rel="lightcase:cablezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img02.jpg" alt="ラットプーリー"></a></li>
+								<li><a href="#machine0403" data-rel="lightcase:cablezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img03.jpg" alt="アームクランチ"></a></li>
+								<li><a href="#machine0404" data-rel="lightcase:cablezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img04.jpg" alt="プルリフト"></a></li>
+								<li><a href="#machine0405" data-rel="lightcase:cablezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img05.jpg" alt="トータルデルト"></a></li>
+								<li><a href="#machine0406" data-rel="lightcase:cablezone"><img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img06.jpg" alt="トータルレッグ"></a></li>
+							</ul>
+						</div>
+						<ul class="arrowList">
+							<li class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_left.png" alt=""></li>
+							<li class="next"><img src="<?php echo get_template_directory_uri(); ?>/img/common/arow_right.png" alt=""></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- ========== / ケーブル式マシン popup END ========== -->
+				<div id="machine0401" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img01.jpg" alt="ショルダーチェスト" />
+					<p class="ttl">品名</p>
+					<p>ショルダーチェスト</p>
+					<p class="ttl">コメント</p>
+					<p>左右独立した機能的な動作が可能で、立位と座位の両方から胸や肩回りを鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大胸筋・三角筋</p>
+				</div>
+
+				<div id="machine0402" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img02.jpg" alt="ラットプーリー" />
+					<p class="ttl">品名</p>
+					<p>ラットプーリー</p>
+					<p class="ttl">コメント</p>
+					<p>左右独立した機能的な動作が可能で、立位と座位の両方から広背筋や脊柱起立筋群を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>広背筋・脊柱起立筋</p>
+				</div>
+
+				<div id="machine0403" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img03.jpg" alt="アームクランチ" />
+					<p class="ttl">品名</p>
+					<p>アームクランチ</p>
+					<p class="ttl">コメント</p>
+					<p>左右独立した機能的な動作が可能で、上腕二頭筋や腹直筋群を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>上腕二頭筋・腹直筋</p>
+				</div>
+
+				<div id="machine0404" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img04.jpg" alt="プルリフト" />
+					<p class="ttl">品名</p>
+					<p>プルリフト</p>
+					<p class="ttl">コメント</p>
+					<p>左右独立した機能的な動作が可能で、広背筋や脊柱起立筋群を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>広背筋・脊柱起立筋</p>
+				</div>
+
+				<div id="machine0405" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img05.jpg" alt="トータルデルト" />
+					<p class="ttl">品名</p>
+					<p>トータルデルト</p>
+					<p class="ttl">コメント</p>
+					<p>左右独立した機能的な動作が可能で、三角筋や腕周りの筋群を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>三角筋・腕周り</p>
+				</div>
+
+				<div id="machine0406" class="popup-contents" style="display: none;">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/machine/cablezone/img06.jpg" alt="トータルレッグ" />
+					<p class="ttl">品名</p>
+					<p>トータルレッグ</p>
+					<p class="ttl">コメント</p>
+					<p>左右独立した機能的な動作が可能で、大腿四頭筋やハムストリングス、殿筋周りの筋群を鍛えることができます。</p>
+					<p class="ttl">効果部位</p>
+					<p>大腿四頭筋・ハムストリングス</p>
+				</div>
+
+				<!-- ========== / ケーブル式マシン popup END ========== -->
+
+
+
+
+			</div>
+		</div>
+	</div>
+	<div class="yellowBox">
+		<div class="content">
+			<div class="functional">
+				<p class="title"><img src="<?php echo get_template_directory_uri(); ?>/img/index/functional_ttl.png" alt="Functional zone"></p>
+				<h3>TRX<small>（世界的な自重トレーニング）</small>ができる<br>
+					ファンクショナルゾーン！</h3>
+				<p>筋力・持久力・バランス・柔軟性・体幹を鍛え、怪我の予防ができ、思い通りに動ける身体をつくります。</p>
+				<div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/functional_area_img.jpg" alt="Functional zone"></div>
+			</div>
+			<!-- <div class="movie">
+								<h4 class="headLine02 white"><span class="en">movie</span></h4>
+								<p>動画でチェック！TRX MAPS 紹介</p>
+								<div class="ytb"><a href="https://www.youtube.com/watch?v=8i0Ncy4ZJfg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb01.jpg" alt="動画でチェック！TRX MAPS 紹介"></a></div>
+							</div> -->
+		</div>
+	</div>
+	<div class="sns">
+		<div class="content">
+			<div class="imgBox flex">
+				<div class="photoBox"><img src="<?php echo get_template_directory_uri(); ?>/img/index/sns_img.png" alt=""></div>
+				<div class="textBox">
+					<p class="title"><img src="<?php echo get_template_directory_uri(); ?>/img/index/sns_imgtext01.png" alt="館内は無料Wi-Fiを完備"></p>
+					<p>レクシーフィット鈴鹿は<br>
+						SNS投稿を応援します！</p>
+					<p class="sm">《館内撮影OK》《SNS投稿OK》<small>※一部エリアを除き</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="studio" class="studio">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">studio program</span>スタジオプログラム</h3>
+			<p class="topText">さまざまな人気プログラムをご用意！</p>
+			<div class="whiteBox">
+				<h4><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext01.png" alt="LesMills"></h4>
+				<p>世界的に有名な“Lesmills(レズミルズ)”を導入！<br class="pc">様々なプログラムをインストラクターまたは巨大スクリーンのバーチャルでご提供！</p>
+				<div class="ytbBox">
+					<div class="ytbInn">
+						<div class="ytb"><a href="https://www.youtube.com/watch?v=3ECG9HcTANk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb02.jpg" alt="BODYCOMAT"></a></div>
+					</div>
+					<div class="textBox">
+						<h5><a href="https://www.youtube.com/watch?v=3ECG9HcTANk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext02.png" alt="BODYCOMAT"></a></h5>
+						<p>
+							BODYCOMBATは最大740カロリーまで燃焼させ、パンチとキックでフィットネスを突き進むワークアウトです。
+							<br>格闘技にインスピレーションを得たこのハイエナジーワークアウトは、完全にノーコンタクトで仮想の相手にパンチやキックを繰り出します。複雑な動きはありません。 すべてのラウンドで最大限の効果が得られるよう、LES MILLS™ インストラクターは強度とモチベーションを上げていきます。 ストレスを発散して、最高の時間を過ごし、チャンピオンのような気分をお楽しみください。
+						</p>
+					</div>
+				</div>
+				<div class="ytbBox ytbBox01">
+					<div class="ytbInn">
+						<div class="ytb"><a href="https://www.youtube.com/watch?v=Wv7AdRIHckQ" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb03.jpg" alt="BODYCOMAT"></a></div>
+					</div>
+					<div class="textBox">
+						<h5><a href="https://www.youtube.com/watch?v=Wv7AdRIHckQ" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext03.png" alt="BODYPUMP"></a></h5>
+						<p>
+							BODYPUMPでは低重量ウェイトから中重量ウェイトまでのバーベルを繰り返し上下運動することで、全身へのワークアウトが可能です。
+							<br>最高540カロリーを消費することができます。インストラクターが科学的に効果が立証されたメソッドとやる気を起こすテクニック、モチベーション、素敵な音楽でコーチングするので、一人でやるよりはるかに良い結果がでます。
+						</p>
+					</div>
+				</div>
+				<div class="companyBox">
+					<p>クリックすると動画がご覧いただけます。</p>
+					<ul class="markUl flex center">
+						<li><a href="https://www.youtube.com/watch?v=EKBgsho4zIU" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_mark01.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/watch?v=COLliZn5xpI" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_mark06.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/watch?v=g1Xl6vXG9qc" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_mark03.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/watch?v=j1N7dTbQrtQ" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_mark07.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/watch?v=pxzBV8vdAg8" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_mark04.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/watch?v=iiNxNXMuf7o" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_mark05.png" alt=""></a></li>
+					</ul>
+				</div>
+
+				<p class="textImg">
+					<!--<img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext10.png" alt="aerial yoga">--><img src="http://lexyfit.com/suzuka/wp-content/uploads/studio-program_imgtext10.png" alt="aerial yoga">
+				</p> <!-- font : Josefin Sans SemiBold -->
+				<p class="subtitle">有料プログラム</p>
+				<div class="comImgBox">
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb11.jpg" alt="aerial yoga"></div>
+					</div>
+					<div class="textBox">
+						<p class="title">ニューヨーク生まれのエアリアルヨガ</p>
+						<p>ハンモックに体を預けてリラックスしつつ、ポーズをとることにより、ヨガ初心者の方でも骨や関節に負担をかけることなく体幹を鍛えることができます。</p>
+					</div>
+				</div>
+
+				<p class="textImg mt-30"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext05.png" alt="yoga"></p>
+				<div class="comImgBox">
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb05.jpg" alt="yoga"></div>
+					</div>
+					<div class="textBox">
+						<p class="title">人気のヨガやピラティスをライブ or オンラインで提供！</p>
+						<p>呼吸と共にリラックスしながら、身体のバランスやコンディショニング、柔軟性を養っていくヨガや、体幹やインナーマッスルも鍛えられるヨガ＆ピラティス、皆で楽しく体を動かしながらトレーニングできるダンス エクササイズなど様々なプログラムをご提供！オンラインレッスンもスタート！</p>
+					</div>
+				</div>
+
+				<!-- ===========================================================================
+								非表示
+								=========================================================================== -->
+				<!-- 
+								<p class="textImg mt-80"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext09.png" alt="dance"></p>
+								<div class="comImgBox">
+									<div class="photoBox">
+										<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb10.jpg" alt="dance"></div>
+									</div>
+									<div class="textBox">
+										<p class="title">皆で楽しく体を動かしながらトレーニングできるダンス エクササイズ</p>
+										<p>皆で楽しく体を動かしながらトレーニングできるダンス エクササイズ</p>
+									</div>
+								</div>
+								-->
+				<!-- ===========================================================================
+								非表示
+								=========================================================================== -->
+
+				<p class="textImg mt-80"><img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext07.png" alt="hura"></p>
+				<div class="comImgBox">
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb09.jpg" alt="hura"></div>
+					</div>
+					<div class="textBox">
+						<p class="title">楽しみながら心身のバランスを整えられるフラダンス</p>
+						<p>ハワイアンミュージックの音色に癒されながら、下半身から指先まで全身を動かし身体をシェイプ！</p>
+					</div>
+				</div>
+
+				<div class="kis_bg">
+					<p class="textImg">
+						<!--<img src="<?php echo get_template_directory_uri(); ?>/img/index/studio-program_imgtext08.png" alt="kids">--><img src="http://lexyfit.com/suzuka/wp-content/uploads/studio-program_imgtext08-24.png" alt="kids">
+					</p>
+					<div class="comImgBox">
+						<div class="photoBox">
+							<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb08.png" alt="kids"></div>
+						</div>
+						<div class="textBox">
+							<p class="title">楽しく運動が上手になる！</p>
+							<p>走る・投げるなど、さまざまなスポーツに応用できる運動の基本動作を伸ばします。対象：3歳～5歳</p>
+						</div>
+					</div>
+				</div>
+
+				<?php
+				$args = array(
+					// 'category_name' => 'schedule',
+					'posts_per_page' => -1,
+					//'order' => 'ASC' ,
+					'post_type' => 'schedule',
+				);
+				$the_query = new WP_Query($args);
+				?>
+				<?php if ($the_query->have_posts()) : ?>
+					<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+
+
+						<?php
+						if (get_post_meta($post->ID, 'schedule-pdf', true)) {
+							$up_files = get_post_meta($post->ID, 'schedule-pdf', false);
+							foreach ($up_files as $up_file) {
+								$up_file01 = wp_get_attachment_url($up_file);
+							}
+						}
+						?>
+
+						<div class="more_btn"><a href="<?php echo $up_file01; ?>" class="<?php echo get_field('schedule-btn-color'); ?>" target="_blank" rel="noopener noreferrer"><?php echo get_the_title(); ?></a></div>
+
+
+					<?php endwhile;
+				else : ?>
+					<p class="post_none">現在投稿はありません</p>
+				<?php endif; ?>
+				<?php wp_reset_postdata(); ?>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="train">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">Personal training</span>パーソナルトレーニング</h3>
+			<p class="topText">様々なコース、メニューを目的に応じてご用意。<br>１人では続かなかった方、グループでトレーニングしたい方にも対応！</p>
+			<div class="whiteBox">
+				<h4 class="headLine02"><span class="en">TRIAL</span></h4>
+				<div class="comImgBox left">
+					<div class="textBox">
+						<p class="title">〇 お試しパーソナル45分×3</p>
+						<p class="price"><em class="en fs01 corTxt01">9,900</em><span class="ttl">円（税込10,890円）</span></p>
+						<p class="sm">プライバシーが保たれたパーソナルトレーニング専用ルームでまわりを気にせずトレーニング。</p>
+					</div>
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/train_img01.jpg" alt="TRIAL"></div>
+					</div>
+				</div>
+				<div class="recommended_txt">
+					<p>おすすめパーソナルメニュー</p>
+				</div>
+				<h4 class="headLine02"><span class="en">BFR PERSONAL TRAINING</span></h4>
+				<div class="comImgBox">
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/train_img02.jpg" alt="BFR PERSONAL TRAINING"></div>
+					</div>
+					<div class="textBox">
+						<p class="title corTxt01">次世代加圧BFRパーソナルトレーニング</p>
+						<p class="sm">BFRとは、Blood Flow Restriction（＝血流制限）の略称です。軽い負荷でも高負荷同等の トレーニング効果を短時間で得られるトレーニングです。 ポイントは脂肪分解やアンチエイジング、筋力アップ、疲労回復効果のある「成長ホルモン」の 分泌を促す事です！<br>
+							成長ホルモンの働きにより、高い効果をもたらすトレーニング方法です。追加料金なしで、パーソナルトレーニングにBFRトレーニングを追加することも可能！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="trainer">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">Trainer</span>トレーナー</h3>
+			<?php
+			$args = array(
+				// 'category_name' => 'trainer',
+				'posts_per_page' => -1,
+				//'order' => 'ASC' ,
+				'post_type' => 'trainer',
+			);
+			$the_query = new WP_Query($args);
+			?>
+			<?php if ($the_query->have_posts()) : ?>
+				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+					<h4><small><?php the_field('cf-trainer-03'); ?></small><?php the_title(); ?><span class="en"><?php the_field('cf-trainer-02'); ?></span></h4>
+					<div class="imgArea flex">
+						<div class="pic"><?php echo wp_get_attachment_image(get_post_meta($post->ID, 'cf-trainer-04', true), '240_thumbnail'); ?></div>
+						<div class="txtBox">
+							<h5>PROFILE</h5>
+							<p><?php the_field('cf-trainer-05'); ?></p>
+						</div>
+						<div class="txtBox">
+							<h5>LICENCE</h5>
+							<p><?php the_field('cf-trainer-06'); ?></p>
+						</div>
+					</div>
+
+				<?php endwhile;
+			else : ?>
+				<p class="post_none">現在投稿はありません</p>
+			<?php endif; ?>
+			<?php wp_reset_postdata(); ?>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="other">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">other</span>その他施設</h3>
+			<p class="note">※写真はイメージです</p>
+			<div class="whiteBox">
+				<h4><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_title.png" alt="の充実の施設をご紹介します。"></h4>
+				<ul class="imgList flex">
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img01.jpg" alt="ロッカー"></div>
+						<div class="txtBox">
+							<h5>ロッカー</h5>
+							<p>トレーニング中にご利用できる鍵付きロッカー完備。</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img02.jpg" alt="シャワールーム"></div>
+						<div class="txtBox">
+							<h5>シャワールーム</h5>
+							<p>一体型脱衣ルームを備えた、プライバシー対策万全の男女別シャワールーム</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img03.jpg" alt="パウダーコーナー"></div>
+						<div class="txtBox">
+							<h5>パウダーコーナー</h5>
+							<p>鏡台、ドライヤー完備の落ち着いた空間をご用意。</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img04.jpg" alt="レンタルロッカー"></div>
+						<div class="txtBox">
+							<h5>レンタルロッカー</h5>
+							<p>荷物を置いておけるので手ぶらでお越し頂けます</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img05.jpg" alt="フロント・ラウンジ"></div>
+						<div class="txtBox">
+							<h5>フロント・ラウンジ</h5>
+							<p>スタッフタイムはフロントにスタッフが常駐だから安心！ラウンジでは運動の前後におくつろぎ頂けます。 全館フリーWi-Fi完備！</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img07.jpg" alt="プロショップ"></div>
+						<div class="txtBox">
+							<h5>プロショップ</h5>
+							<p>フィットネスグッズやプロテインなどを販売しております</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img08.jpg" alt="日焼けマシン"></div>
+						<div class="txtBox">
+							<h5>日焼けマシン</h5>
+							<p>健康的に日焼けをしていただけるタンニングマシンを設置。</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/other_img09.jpg" alt="水素水サーバー"></div>
+						<div class="txtBox">
+							<h5>水素水サーバー</h5>
+							<p>安定した水素濃度を実現した、高濃度水素水サーバーをご用意！（別途料金）</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="service">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">service</span>サービス</h3>
+			<div class="whiteBox">
+				<!--<h4><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_ttl.png" alt="１日に２回、様々なガイダンスツアーを無料で受けられる！初心者の方も安心の目的別・部位別ガイダンスツアー"></h4>-->
+				<div class="comImgBox left">
+					<div class="textBox">
+						<p class="title"><span>無料</span> 初心者の方も安心のマシンツアー</p>
+						<p class="sm">誤ったマシンの使い方をすると、効果的なトレーニングは行えません。マシンごとに正しいシートの合わせ方、フォーム・呼吸法などを、ガイダンスしていくツアーを行っております。<br>※ノースタッフデー除く</p>
+					</div>
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_img01.jpg" alt="無料 初心者の方も安心のマシンツアー"></div>
+					</div>
+				</div>
+				<div class="comImgBox">
+					<div class="photoBox">
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_img02.jpg" alt="無料 ミニレッスン"></div>
+					</div>
+					<div class="textBox">
+						<p class="title"><span>無料</span> ミニレッスン</p>
+						<p class="sm">初心者の方も楽しめる骨盤教室など、スタッフによるミニレッスンを予定しております。<br>※ノースタッフデー除く</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- ===========================================================================
+						非表示
+						=========================================================================== -->
+			<!-- <p class="textImg"><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_imgtext01.png" alt="トレーニングジムでこんなご経験はありませんか？スタッフがいない時間帯で聞けない・・・他の方の対応中ですぐにきけない・・・"></p>
+					<p class="title">レクシーフィットではいつでも動画でチェック可能</p>
+					<p class="sm">マシンの正しい使い方/正しいシートの合わせ方/正しいフォーム・呼吸法</p>
+					<div class="comBtn"><a href="https://www.youtube.com/channel/UCtT9x77IcY0XLCxRM83tAoQ" target="_blank">公式Youtubeチャンネル</a></div> -->
+			<!-- ===========================================================================
+						非表示
+						=========================================================================== -->
+
+		</div>
+	</div>
+	<div class="security">
+		<div class="content">
+			<div class="whiteBox">
+				<h3 class="headLine01 cor01"><span class="en">security</span>セキュリティ</h3>
+				<p class="topText">人の少ない時間帯も安心してトレーニングに集中できます！</p>
+				<ul class="imgUl flex">
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/security_img01.jpg" alt="フロントスタッフインストラクターが 10:00～22:00まで常駐"></div>
+						<div class="txtBox">
+							<p>フロントスタッフインストラクターが<br>
+								スタッフタイムに常駐 ※ノースタッフデーは除く</p>
+						</div>
+					</li>
+					<li>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/security_img02.jpg" alt="フロントスタッフインストラクターが 10:00～22:00まで常駐"></div>
+						<div class="txtBox">
+							<ul class="txtUl">
+								<li>・防犯カメラによる遠隔監視</li>
+								<li>・顔認証による認証システム</li>
+								<li>・AED設置店舗</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="price" class="priceWrap">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">PRICE LIST</span>料金表</h3>
+			<div class="whiteBox">
+				<?php the_field('fee-list', 'option', false, false); ?>
+			</div>
+
+			<ul class="snsUl flex">
+				<li>
+					<a href="https://www.instagram.com/lexyfit_suzuka/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/index/instagram_ttl.png" alt="instagram"></a>
+					<!-- SnapWidget -->
+					<iframe src="https://snapwidget.com/embed/978854" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:495px"></iframe>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/lexyfit.suzuka/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/index/facebook_ttl.png" alt="facebook"></a>
+					<div class="fb-page" data-href="https://www.facebook.com/lexyfit.suzuka/" data-tabs="timeline" data-width="500" data-height="551" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+						<blockquote cite="https://www.facebook.com/lexyfit.suzuka/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lexyfit.suzuka/">初心者でも安心のフィットネスジム、レクシーフィット松阪</a></blockquote>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<div id="news" class="information">
+		<div class="content">
+			<h3 class="headLine01 cor01"><span class="en">INFORMATION</span>お知らせ</h3>
+			<div class="news_list">
+				<ul>
+					<?php
+					$args = array(
+						'category_name' => 'news',
+						'posts_per_page' => 3,
+						'post_type' => 'post',
+					);
+					$the_query = new WP_Query($args);
+					?>
+					<?php if ($the_query->have_posts()) : ?>
+						<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+							<li>
+								<div class="photo"><?php the_post_thumbnail('150_thumbnail', array('alt' => get_the_title())); ?></div>
+								<a href="<?php the_permalink(); ?>" target="_blank">
+									<?php the_time('Y/m/d'); ?><span><?php the_title(); ?></span>
+									<p><?php
+										$str = get_the_content();
+										$str = strip_tags(strip_shortcodes($str)); //各種タグとショートコードを削除
+										$num = 204; // 制限する文字数を指定
+										if (mb_strlen($str) > $num) {
+											$str = mb_substr($str, 0, $num);
+											echo str_replace(array("　", " ", "\r\n", "\n", "\r"), '', $str) . '';
+										} else {
+											echo str_replace(array("　", " ", "\r\n", "\n", "\r"), '', $str);
+										}
+										?></p>
+								</a>
+							</li>
+						<?php endwhile;
+					else : ?>
+						<li class="post_none">現在投稿はありません</li>
+					<?php endif; ?>
+				</ul>
+				<?php wp_reset_postdata(); ?>
+
+				<div class="more_btn">
+					<a href="<?php echo home_url(); ?>/news/" target="_blank">もっと見る</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="whiteBox">
+		<div class="store">
+			<div class="content">
+				<h3 class="headLine01 cor01"><span class="en">store info</span>店舗情報/アクセス</h3>
+				<h4 class="headLine02"><span class="en">company</span></h4>
+				<div class="tableBox">
+					<table>
+						<tbody>
+							<tr>
+								<th>店舗名</th>
+								<td>レクシーフィット鈴鹿店</td>
+							</tr>
+							<tr>
+								<th>住所</th>
+								<td>〒513-0803　三重県鈴鹿市三日市町1053 ※駐車場150台</td>
+							</tr>
+							<tr>
+								<th>電話番号</th>
+								<td><a href="tel:0593256310">059-325-6310</a></td>
+							</tr>
+							<tr>
+								<th>営業時間</th>
+								<td>24時間365日営業</td>
+							</tr>
+							<tr>
+								<th>スタッフタイム</th>
+								<td>10:00～21:00 (土日祝は19:00まで) 毎週木曜日はノースタッフデー</td>
+							</tr>
+							<tr>
+								<th></th>
+								<td>お問い合わせ・ご見学は上記スタッフタイムにお願いいたします。</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="whiteBox">
+			<h4 id="access" class="headLine02"><span class="en">access</span></h4>
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.270382203071!2d136.55915282252334!3d34.87455614408464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b9fe0a0a801%3A0x30c4ca6b6fe12e4!2z44Os44Kv44K344O844OV44Kj44OD44OI6Yi06bm_IOmItOm5v-W4giDjgrjjg6A!5e0!3m2!1sja!2sjp!4v1640532290177!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<?php get_footer(); ?>

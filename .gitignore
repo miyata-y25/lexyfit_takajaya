@@ -1,0 +1,17 @@
+/conf/
+/logs/
+/app/sql/
+/app/public/wp-config.php
+/app/public/.htaccess
+/app/public/.htpasswd
+/app/public/index.php
+/app/public/license.txt
+/app/public/readme.html
+/app/public/wp-*.php
+/app/public/xmlrpc.php
+/app/public/wp-admin/*
+/app/public/wp-content/*
+!/app/public/wp-content/themes
+/app/public/wp-content/themes/*
+!/app/public/wp-content/themes/lexyfit
+/app/public/wp-includes/*

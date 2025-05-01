@@ -667,6 +667,16 @@ a[href^="tel:"] {
 	background: url(img/common/line01.png) no-repeat center bottom;
 }
 
+.headLine01 .logo {
+	display: block;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.headLine01 .logo img {
+	max-width: 300px;
+	width: 60%;
+}
+
 .headLine01 .en {
 	display: block;
 	font-size: 6rem;
@@ -1959,6 +1969,9 @@ a[href^="tel:"] {
 	margin-bottom: 60px;
 }
 @media all and (max-width: 767px) {
+	#main #bouldering {
+		padding: 60px 0;
+	}
 	#main #bouldering .title {
 		font-size: 2rem !important;
 	}
@@ -2547,7 +2560,7 @@ a[href^="tel:"] {
 	margin-bottom: 0!important;
 }
 
-#main .priceWrap .snsUl li a {
+#main .priceWrap .snsUl li > a {
 	margin-bottom: 26px;
 	display: block;
 	text-align: center;
@@ -3523,7 +3536,7 @@ a[href^="tel:"] {
 		width: 100%;
 	}
 
-	#main .priceWrap .snsUl li a {
+	#main .priceWrap .snsUl li > a {
 		margin-bottom: 10px;
 	}
 

@@ -102,7 +102,7 @@
 	<div class="about">
 		<div class="content">
 			<h3 class="headLine01"><span class="en">ABOUT</span>レクシーフィットネスとは</h3>
-			<p class="topText">「Lexy」とはLive ＆ Sexyの造語です。年齢や男女問わず、美しく鍛えたい！かっこよく鍛えたい！健康を維持したい！Cool Bodyを目指したい 皆様の思いに応えるフィットネスジムです。<br>
+			<p class="topText">「LeXy」とはLive Sexyの造語です。年齢や男女問わず、美しく鍛えたい！かっこよく鍛えたい！健康を維持したい！Cool Bodyを目指したい 皆様の思いに応えるフィットネスジムです。<br>
 				<br>
 				高茶屋店は240坪のボディメイクに必要なマシンがすべて揃う究極のジム。運動初心者でも使いやすいく、上級者も納得のマシンラインナップ。スタジオではバーチャルレッスンを中心にライブレッスンも充実。アスリートや本気の挑戦者のためのアスレチック型トレーニング施設、地域初上陸。三重県津市、国道165号線沿い、中勢バイパス高茶屋小森交差点近く、駐車場50台完備。
 			</p>
@@ -1107,11 +1107,11 @@
 
 	<div id="bouldering" class="bouldering">
 		<div class="content">
-			<h3 class="headLine01 cor01"><span class="en">HANZO NINJA ATHLETIC</span>アスレチック型トレーニング施設</h3>
-			<p class="title corTxt01 taCenter">「挑戦することが、強さになる。」</p>
+			<h3 class="headLine01 cor01"><span class="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/hanzo_logo.svg"></span><span class="en">HANZO NINJA ATHLETIC</span>本格アスレチック型チャレンジ施設</h3>
+			<p class="title corTxt01 taCenter">「限界を超えろ。君の中の“忍者魂”を呼び覚ませ。」</p>
 			<p class="topText taCenter">
-				ただ鍛えるだけでは、物足りない。HANZO NINJA ATHLETICは“達成感”と“限界突破”を得るための、本気のトレーニングZONE！<br>
-				身体だけでなく、挑戦する心まで鍛える。ここは、己と戦う者たちのアスレチック道場。
+				地域初の“挑戦型アスレチック”エリア導入！<br>
+				テレビの中でしか見られなかった“超人的なアスレチック”が、ついに現実に！
 			</p>
 			<div class="whiteBox">
 
@@ -1130,7 +1130,7 @@
 					</div>
 					<div class="textBox">
 						<p class="title corTxt01">フィジカル強化特化の“忍トレ”セクション</p>
-						<p class="sm">懸垂、ジャンプ、バランス感覚など、NINJAアスレチックに必要な動きを徹底的に鍛えます。</p>
+						<p class="sm">懸垂、ジャンプ、バランス感覚など、NINJAアスレチックに必要な動きを徹底的に鍛える。近代五種の新競技「オブスタクル」の基礎トレーニングにも最適!</p>
 					</div>
 				</div>
 				<!-- <div class="recommended_txt">
@@ -1286,22 +1286,13 @@
 			<h3 class="headLine01"><span class="en">service</span>サービス</h3>
 			<div class="whiteBox">
 				<!--<h4><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_ttl.png" alt="１日に２回、様々なガイダンスツアーを無料で受けられる！初心者の方も安心の目的別・部位別ガイダンスツアー"></h4>-->
-				<div class="comImgBox left">
-					<div class="textBox">
-						<p class="title"><span>無料</span> 初心者の方も安心のマシンツアー</p>
-						<p class="sm">誤ったマシンの使い方をすると、効果的なトレーニングは行えません。マシンごとに正しいシートの合わせ方、フォーム・呼吸法などを、ガイダンスしていくツアーを行っております。<br>※ノースタッフデー除く</p>
-					</div>
+				<div class="comImgBox">
 					<div class="photoBox">
 						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_img01.jpg" alt="無料 初心者の方も安心のマシンツアー"></div>
 					</div>
-				</div>
-				<div class="comImgBox">
-					<div class="photoBox">
-						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/service_img02.jpg" alt="無料 ミニレッスン"></div>
-					</div>
 					<div class="textBox">
-						<p class="title"><span>無料</span> ミニレッスン</p>
-						<p class="sm">初心者の方も楽しめる骨盤教室など、スタッフによるミニレッスンを予定しております。<br>※ノースタッフデー除く</p>
+						<p class="title"><span>無料</span> 初心者の方も安心のマシンツアー</p>
+						<p class="sm">誤ったマシンの使い方をすると、効果的なトレーニングは行えません。マシンごとに正しいシートの合わせ方、フォーム・呼吸法などを、ガイダンスしていくツアーを行っております。<br>※ノースタッフデー除く</p>
 					</div>
 				</div>
 			</div>
@@ -1360,7 +1351,8 @@
 				<li>
 					<a href="https://www.instagram.com/lexyfit_takajaya/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/index/instagram_ttl.png" alt="instagram"></a>
 					<!-- SnapWidget -->
-					<iframe src="https://snapwidget.com/embed/978854" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:495px"></iframe>
+					<!-- <iframe src="https://snapwidget.com/embed/978854" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:495px"></iframe> -->
+					<?php echo do_shortcode('[instagram-feed feed=1]'); ?>
 				</li>
 				<li>
 					<a href="https://www.facebook.com/lexyfit.takajaya/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/index/facebook_ttl.png" alt="facebook"></a>

@@ -5,7 +5,7 @@
 				<p class="taLeft">240坪のボディメイクに必要なマシンがすべて揃う究極のジム。運動初心者でも使いやすいく、上級者も納得のマシンラインナップ。スタジオではバーチャルレッスンを中心にライブレッスンも充実。アスリートや本気の挑戦者のためのアスレチック型トレーニング施設、地域初上陸。三重県津市、国道165号線沿い、中勢バイパス高茶屋小森交差点近く、駐車場50台完備。</p>
 				<p>運営：ワークエル株式会社</p>
 				<p style="margin-top: 10px;"><strong>レクシーフィット松阪店ではスタッフ・トレーナーを募集しております。詳しくはご連絡ください。	</strong></p>
-				<p><a href="https://lexyfit.com/matsusaka/law/">特定商取引法に基づく表記</a></p>
+				<p><a href="<?php echo home_url();?>/law/">特定商取引法に基づく表記</a></p>
 				<p class="copyright">copyright (C) レクシーフィット All right reserved.</p>
 			</div>
 			<ul class="fixUl">

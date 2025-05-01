@@ -5,8 +5,8 @@
 					<nav id="gNavi">
 						<button type="button" class="overlay-close sp">Close</button>
 						<ul class="snsUl">
-							<li><a href="https://www.instagram.com/lexyfit_suzuka/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/common/in_icon.png" alt=""></a></li>
-							<li><a href="https://www.facebook.com/lexyfit.suzuka/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/common/fb_icon.png" alt="f"></a></li>
+							<li><a href="https://www.instagram.com/lexyfit_takajaya/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/common/in_icon.png" alt=""></a></li>
+							<li><a href="https://www.facebook.com/lexyfit.takajaya" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/common/fb_icon.png" alt="f"></a></li>
 							<li><a href="<?php echo home_url();?>" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/img/common/yt_icon.png" alt=""></a></li>
 						</ul>
 						<ul class="naviList flex">

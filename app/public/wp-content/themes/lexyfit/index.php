@@ -22,7 +22,7 @@
 				<p class="txt">スミスマシンやパワーラックはもちろん、プレードローデッドマシンやダンベルも70㎏までご用意！</p>
 			</li>
 			<li>
-				<p class="ttl">スタジオプログラム<br>もご用意</p>
+				<p class="ttl">LIVE & Virtual<br>スタジオプログラム</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/img/index/main_img05_icon.png" alt="スタジオプログラムもご用意 世界的人気のレズミルズやヨガ・ピラティス・ダンスプログラムなどLIVEレッスンが充実！">
 				<p class="txt">世界的人気のレズミルズやヨガ・フラダンスなどLIVEレッスンが充実！オンラインレッスンもスタート！</p>
 			</li>
@@ -109,8 +109,8 @@
 			<div class="comSlideBox">
 				<div class="slideInn">
 					<ul class="slide">
-						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img01.jpg" alt="アドバンスゾーン"><span class="ttl">アドバンスゾーン</span></li>
-						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img02.jpg" alt="ビギナーゾーン"><span class="ttl">ビギナーゾーン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img02.jpg" alt="アドバンスゾーン"><span class="ttl">アドバンスゾーン</span></li>
+						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img01.jpg" alt="ビギナーゾーン"><span class="ttl">ビギナーゾーン</span></li>
 						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img03.jpg" alt="カーディオゾーン"><span class="ttl">カーディオゾーン</span></li>
 						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img04.jpg" alt="ファンクショナルゾーン"><span class="ttl">ファンクショナルゾーン</span></li>
 						<li><img src="<?php echo get_template_directory_uri(); ?>/img/index/about_img15.jpg" alt="HANZO NINJA ATHLETIC"><span class="ttl">HANZO NINJA ATHLETIC</span></li>
@@ -212,7 +212,7 @@
 										<th>ご来店手続き時に<br class="sp_only">必要なもの</th>
 										<td>・本人確認書類（運転免許証など）<br>
 											・スマートフォン<br class="sp_only">（お持ちでない方はご相談ください）<br>
-											・クレジットカード</td>
+											・クレジットカード、または銀行口座振替ご希望の方は通帳＋お届け印</td>
 									</tr>
 								</tbody>
 							</table>
@@ -252,65 +252,10 @@
 				=========================================================================== -->
 
 
-
-	<div class="corporatemember">
-		<div class="content">
-			<h3 class="headLine01"><span class="en">Corporate member</span>法人会員</h3>
-			             <p class="topText">企業の福利厚生に「健康寿命を延ばすこと」を加えませんか？</p>
-			<div class="whiteBox">
-				<!--<h4 class="headLine02"><span class="en">TRIAL</span></h4>-->
-				<div class="textBox">
-					<p class="title">年会費(1口)</p>
-					<p class="price"><em class="en fs01 corTxt01">300,000</em><span class="ttl">円（税込330,000円）</span></p>
-				</div>
-				<div class="textBox">
-					<p class="title">入会金</p>
-					<p class="price"><em class="en fs01 corTxt01">200,000</em><span class="ttl">円（税込220,000円）</span></p>
-				</div>
-
-				<div class="textBox">
-					<p class="title">セキュリティ登録料</p>
-					<p class="price"><em class="en fs01 corTxt01">25,000</em><span class="ttl">円（税込27,500円）</span></p>
-				</div>
-				<p class="sm">※1口5名までご利用可(入会企業の従業員様が対象となります。)</p>
-				<p class="sm">※店舗(法人営業担当)までご連絡下さい。</p>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="franchise">
-		<div class="content">
-			             <h3 class="headLine01 cor01"><span class="en">FRANCHISE</span>FC加盟オーナー・出店用地募集</h3>
-			<p class="topText">地域に根差した地域一番店のフィットネスジムを目指して</p>
-			<div class="whiteBox">
-				<!--<h4 class="headLine02"><span class="en">TRIAL</span></h4>-->
-
-				<div class="comImgBox left">
-					<div class="textBox">
-						<p class="title corTxt01">FC加盟オーナー・出店用地を募集しています！</p>
-						                   
-						<!--<p class="sm">コロナ禍で人々の健康意欲が高まり気軽にトレーニングをしたいというニーズは今後ますます増えると予想されます。</p>-->
-						<p class="sm">レクシーフィットでは未経験、ノウハウ無しでジムが開業できます！</p>
-						<p class="sm">価格競争に巻き込まれず勝ち組なるプランニングならレクシーフィット!あなたもFC加盟オーナーになりませんか？<br>新規出店用地も募集しています!</p>
-					</div>
-					<div class="photoBox">
-						<div class="pho"><img src="https://lexyfit.com/tsushinmachi/wp-content/uploads/feature_image_01-.jpg"></div>
-					</div>
-				</div>
-				<div class="recommended_txt">
-					<p><a href="https://workel.co.jp/" target="_blank">お問い合わせはこちら</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
 	<div id="facilities" class="facilities">
 		<div class="content">
 			<h3 class="headLine01"><span class="en">facilities</span>施設紹介</h3>
-			<p class="topText">地域最大級24時間フィットネスジム「レクシーフィット鈴鹿店」の施設を大公開！</p>
+			<p class="topText">地域最大級24時間フィットネスジム「レクシーフィット高茶屋店」の施設を大公開！</p>
 			<div class="whiteBox">
 				<h4 class="headLine02"><span class="en">TRAINING ZONE</span></h4>
 				<p>あなたの願いが全てかなう４つのトレーニングゾーン</p>
@@ -538,7 +483,7 @@
 					<div class="fooBox">
 						<div class="textBox">
 							<h5><span>アドバンスゾーン</span></h5>
-							<p>広々アドバンスエリアは様々な部位に<br class="pc">効果的なマシンやダンベルも70kgまでご用意！<br class="pc">日本にまだ数台の美尻専用マシンも！</p>
+							<p>広々アドバンスエリアは様々な部位に<br class="pc">効果的なマシンやダンベルも70kgまでご用意！</p>
 						</div>
 						<div class="foo"><img src="<?php echo get_template_directory_uri(); ?>/img/index/slider01_ttl.jpg" alt=""></div>
 					</div>
@@ -1063,7 +1008,7 @@
 						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/ytb08.jpg" alt=""></div>
 						</div>
 						<div class="textBox">
-						<p class="title">キッズダンス会員新設！ダンス初心者でも大丈夫！音楽に合わせて楽しく踊りましょう！</p>
+						<p class="title">キッズダンス会員募集！ダンス初心者でも大丈夫！音楽に合わせて楽しく踊りましょう！</p>
 						<p>ダンスの基本となる"リズムどり"や"アイソレーション"(体をパーツごとに動かすこと)をはじめ、体をしっかり動かして踊る楽しさを伝えていきます！！対象：小1～小6</p>
 						</div>
 					</div>
@@ -1097,7 +1042,7 @@
 
 					<?php endwhile;
 				else : ?>
-					<p class="post_none">現在投稿はありません</p>
+					<!-- <p class="post_none">現在投稿はありません</p> -->
 				<?php endif; ?>
 				<?php wp_reset_postdata(); ?>
 
@@ -1121,12 +1066,12 @@
 						<p class="sm">筋力・敏捷性・判断力・持久力のすべてが試される、本格障害物コースを常設。<br>「挑戦したい」と思ったあの日の自分が、今ここで本気になれる。</p>
 					</div>
 					<div class="photoBox">
-						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/bouldering01.png"></div>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/hanzo_coming_soon.jpg"></div>
 					</div>
 				</div>
 				<div class="comImgBox right">
 					<div class="photoBox">
-						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/bouldering01.png"></div>
+						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/hanzo_coming_soon.jpg"></div>
 					</div>
 					<div class="textBox">
 						<p class="title corTxt01">フィジカル強化特化の“忍トレ”セクション</p>
@@ -1150,13 +1095,13 @@
 					<div class="textBox">
 						<p class="title">〇 お試しパーソナル60分×1回</p>
 						<p class="price"><em class="en fs01 corTxt01">1,800</em><span class="ttl">円～（税込1,980円～）</span></p>
-						<p class="sm">プライバシーが保たれたパーソナルトレーニング専用ルームでまわりを気にせずトレーニング。</p>
+						<p class="sm">経験豊富なトレーナーが目的に合わせたメニューをレクチャーいたします。</p>
 					</div>
 					<div class="photoBox">
 						<div class="pho"><img src="<?php echo get_template_directory_uri(); ?>/img/index/train_img01.jpg" alt="TRIAL"></div>
 					</div>
 				</div>
-				<div class="recommended_txt">
+				<!-- <div class="recommended_txt">
 					<p>おすすめパーソナルメニュー</p>
 				</div>
 				<h4 class="headLine02"><span class="en">BFR PERSONAL TRAINING</span></h4>
@@ -1169,7 +1114,7 @@
 						<p class="sm">BFRとは、Blood Flow Restriction（＝血流制限）の略称です。軽い負荷でも高負荷同等の トレーニング効果を短時間で得られるトレーニングです。 ポイントは脂肪分解やアンチエイジング、筋力アップ、疲労回復効果のある「成長ホルモン」の 分泌を促す事です！<br>
 							成長ホルモンの働きにより、高い効果をもたらすトレーニング方法です。追加料金なしで、パーソナルトレーニングにBFRトレーニングを追加することも可能！</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -1364,6 +1309,57 @@
 		</div>
 	</div>
 
+	<div class="corporatemember">
+		<div class="content">
+			<h3 class="headLine01"><span class="en">Corporate member</span>法人会員</h3>
+			             <p class="topText">企業の福利厚生に「健康寿命を延ばすこと」を加えませんか？</p>
+			<div class="whiteBox">
+				<!--<h4 class="headLine02"><span class="en">TRIAL</span></h4>-->
+				<div class="textBox">
+					<p class="title">年会費(1口)</p>
+					<p class="price"><em class="en fs01 corTxt01">300,000</em><span class="ttl">円（税込330,000円）</span></p>
+				</div>
+				<div class="textBox">
+					<p class="title">入会金</p>
+					<p class="price"><em class="en fs01 corTxt01">200,000</em><span class="ttl">円（税込220,000円）</span></p>
+				</div>
+
+				<div class="textBox">
+					<p class="title">セキュリティ登録料</p>
+					<p class="price"><em class="en fs01 corTxt01">25,000</em><span class="ttl">円（税込27,500円）</span></p>
+				</div>
+				<p class="sm">※1口5名までご利用可(入会企業の従業員様が対象となります。)</p>
+				<p class="sm">※店舗(法人営業担当)までご連絡下さい。</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="franchise">
+		<div class="content">
+			             <h3 class="headLine01 cor01"><span class="en">FRANCHISE</span>FC加盟オーナー・出店用地募集</h3>
+			<p class="topText">地域に根差した地域一番店のフィットネスジムを目指して</p>
+			<div class="whiteBox">
+				<!--<h4 class="headLine02"><span class="en">TRIAL</span></h4>-->
+
+				<div class="comImgBox left">
+					<div class="textBox">
+						<p class="title corTxt01">FC加盟オーナー・出店用地を募集しています！</p>
+						                   
+						<!--<p class="sm">コロナ禍で人々の健康意欲が高まり気軽にトレーニングをしたいというニーズは今後ますます増えると予想されます。</p>-->
+						<p class="sm">レクシーフィットでは未経験、ノウハウ無しでジムが開業できます！</p>
+						<p class="sm">価格競争に巻き込まれず勝ち組なるプランニングならレクシーフィット!あなたもFC加盟オーナーになりませんか？<br>新規出店用地も募集しています!</p>
+					</div>
+					<div class="photoBox">
+						<div class="pho"><img src="https://lexyfit.com/tsushinmachi/wp-content/uploads/feature_image_01-.jpg"></div>
+					</div>
+				</div>
+				<div class="recommended_txt">
+					<p><a href="https://workel.co.jp/" target="_blank">お問い合わせはこちら</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<div id="news" class="information">

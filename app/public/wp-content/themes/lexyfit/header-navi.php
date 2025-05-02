@@ -17,7 +17,7 @@
 							<li><a href="<?php echo home_url();?>#price">料金</a></li>
 							<li><a href="<?php echo home_url();?>#news">ニュース</a></li>
 							<li><a href="<?php echo home_url();?>#access">アクセス</a></li>
-							<li><a href="https://2.onemorehand.jp/lexyfit-matsusaka/" target="_blank" rel="noopener noreferrer">レッスン予約</a></li>
+							<!-- <li><a href="https://2.onemorehand.jp/lexyfit-matsusaka/" target="_blank" rel="noopener noreferrer">レッスン予約</a></li> -->
 						</ul>
 					</nav>
 				</div>

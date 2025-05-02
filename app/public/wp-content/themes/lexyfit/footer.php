@@ -9,7 +9,8 @@
 				<p class="copyright">copyright (C) レクシーフィット All right reserved.</p>
 			</div>
 			<ul class="fixUl">
-				<li><a href="tel:0592531236"><img src="<?php echo get_template_directory_uri(); ?>/img/common/fix_tel.png" alt="tel.059-253-1236" class="pc"><span class="sp">tel.059-253-1236</span></a></li>
+				<!-- <li><a href="tel:0592531236"><img src="<?php echo get_template_directory_uri(); ?>/img/common/fix_tel.png" alt="tel.059-253-1236" class="pc"><span class="sp">tel.059-253-1236</span></a></li> -->
+				<li><a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=ThM8UzMmXbRafji&f=00005" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/fix_web.png" alt="WEB入会" class="pc"><span class="sp">WEB入会</span></a></li>
 				<li><a href="<?php echo home_url();?>/contact/"><img src="<?php echo get_template_directory_uri(); ?>/img/common/fix_contact.png" alt="お問い合わせ" class="pc"><span class="sp">お問い合わせ</span></a></li>
 			</ul>
 		</footer>
